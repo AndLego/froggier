@@ -1,0 +1,18 @@
+.helper--content{
+    width: 76vh;
+    margin: 0 auto;
+}
+
+.main--titles{
+    max-width: initial;
+    word-wrap: break-word;
+ }
+
+h1.main--title{
+    font-size: 6.4rem;
+    padding-right: 6rem;
+}
+
+h2.main--title{
+    font-size: 2.9rem;
+}

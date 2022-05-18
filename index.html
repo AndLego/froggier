@@ -17,51 +17,57 @@
       src="https://kit.fontawesome.com/290ac6f052.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./src/css/tablet.css" media="screen and (min-width: 501px)">
+    <link rel="stylesheet" href="./src/css/desktop.css" media="screen and (min-width: 1001px)">
   </head>
   <body>
-    <header class="header">
-      <span class="header--icon"><i class="fa-solid fa-frog"></i></span>
-    </header>
-    <main>
-      <div>
-        <section class="main--titles">
-          <h1 class="main--title">Happening now</h1>
-          <h2 class="main--title">Join Froggier today.</h2>
-        </section>
-        <section class="main--buttons">
-          <button class="main--button main--button__white">
-            <span><i class="fa-brands fa-google"></i></span> Sign up with Google
-          </button>
-          <button class="main--button main--button__white">
-            <span><i class="fa-brands fa-apple"></i></span> Sign up with Apple
-          </button>
-          <div class="main--division"><span> or </span></div>
-          <button class="main--button main--button__blue">
-            Sign up with phone or email
-          </button>
-          <p class="main--text">
-            By signing up, you agree to the
-            <a class="text--link" href="">Terms of Service</a> and
-            <a class="text--link" href="/">Privacy Policy</a>, including
-            <a class="text--link" href="">Cookie Use</a>.
-          </p>
-        </section>
-        <div>
-          <h3>Already have an account?</h3>
-          <button
-            class="main--button main--button__white main--button__white--blue"
-          >
-            Sign in
-          </button>
-        </div>
+    <div class="helper">
+      <div class="helper--content">
+        <header class="header">
+          <span class="header--icon"><i class="fa-solid fa-frog"></i></span>
+        </header>
+        <main>
+          <div class="main--hero">
+            <section class="main--titles">
+              <h1 class="main--title">Happening now</h1>
+              <h2 class="main--title">Join Froggier today.</h2>
+            </section>
+            <section class="main--buttons">
+              <button class="main--button main--button__white">
+                <span><i class="fa-brands fa-google"></i></span> Sign up with Google
+              </button>
+              <button class="main--button main--button__white apple">
+                <span><i class="fa-brands fa-apple"></i></span> Sign up with Apple
+              </button>
+              <div class="main--division">
+                <div></div>
+                <span> or </span>
+                <div></div>
+              </div>
+              <button class="main--button main--button__blue">
+                Sign up with phone or email
+              </button>
+              <p class="main--text">
+                By signing up, you agree to the
+                <a class="text--link" href="">Terms of Service</a> and
+                <a class="text--link" href="/">Privacy Policy</a>, including
+                <a class="text--link" href="">Cookie Use</a>.
+              </p>
+              <h3 class="text--sign">Already have an account?</h3>
+              <button
+                class="main--button main--button__white main--button__white--blue"
+              >
+                Sign in
+              </button>
+            </section>
+          </div>
       </div>
       <div class="main--background">
-          <img class="main--background-image"
-          src="https://i.postimg.cc/90rVH1rF/duotone-1.jpg"
-          alt="background frog"
-          />
-          <span class="header--icon header--icon__white"><i class="fa-solid fa-frog"></i></span>
+        <span class="header--icon header--icon__white"
+          ><i class="fa-solid fa-frog"></i
+        ></span>
       </div>
+    </div>
     </main>
     <footer class="footer">
       <ul class="footer--list">
@@ -82,8 +88,8 @@
         <li><a href="/">Developers</a></li>
         <li><a href="/">Directory</a></li>
         <li><a href="/">Settings</a></li>
+        <li>© 2022 Froggier. Inc.</li>
       </ul>
-      <span>© 2022 Froggier. Inc.</span>
     </footer>
-</body>
+  </body>
 </html>

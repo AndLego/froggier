@@ -1,0 +1,40 @@
+
+.helper{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 97vh;
+}
+
+.helper--content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main--background, .helper--content{
+    width: 50%;
+    height: 100%;
+}
+
+.header--icon__white{
+    position: initial;
+    margin-left: auto;
+    margin-right: auto;
+    width: initial;
+    left: initial;
+    font-size: 30rem;
+}
+
+.main--titles{
+   max-width: initial;
+}
+
+h1.main--title{
+    font-size: 6rem;
+    padding-right: initial;
+}
+
+h2.main--title{
+    font-size: 2.9rem;
+}
